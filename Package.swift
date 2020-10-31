@@ -22,7 +22,7 @@ let package = Package(
     targets: [
         .target(
             name: "ParseLiveQuery",
-            dependencies: []
+            dependencies: ["Bolts-Swift", "Starscream"]
         ),
         .testTarget(
             name: "ParseLiveQueryTests",
